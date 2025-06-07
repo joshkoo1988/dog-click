@@ -41,9 +41,9 @@ dog-click/
    cd dog-click
    ```
 2. Install dependencies
-  ```bash
-  npm install
-```
+   ```bash
+   npm install
+   ```
 3. Start the development server
    ```bash
    npm run deploy
