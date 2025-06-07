@@ -1,12 +1,52 @@
-# React + Vite
+# Dog Clicker Game
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, fun React + Tailwind CSS game where you click a dog to move it around the screen and earn points. Every click relocates the dog to a new random position, and your score increases.
 
-Currently, two official plugins are available:
+## Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+[Play it here](https://joshkoo1988.github.io/dog-click/)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Clickable dog image that moves randomly
+- Real-time score tracking
+- Built with Vite for fast performance
+- Styled with Tailwind CSS
+- Deployed on GitHub Pages
+
+## Tech Stack
+
+- React
+- Vite
+- Tailwind CSS
+- GitHub Pages
+
+## Project Structure
+
+dog-click/
+├── public/
+├── src/
+│ ├── App.jsx # Main game logic
+│ ├── main.jsx # Entry point
+│ └── index.css # Tailwind CSS setup
+├── vite.config.js # Vite config with GitHub Pages base
+├── package.json
+└── README.md
+
+## Local Development
+
+1. Clone the repo  
+   ```bash
+   git clone https://github.com/joshkoo1988/dog-click.git
+   cd dog-click
+   ```
+2. Install dependencies
+  ```bash
+  npm install
+```
+3. Start the development server
+   ```bash
+   npm run deploy
+   ```
+
+Built by @joshkoo1988
