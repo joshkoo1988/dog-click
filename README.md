@@ -21,18 +21,6 @@ A simple, fun React + Tailwind CSS game where you click a dog to move it around 
 - Tailwind CSS
 - GitHub Pages
 
-## Project Structure
-
-dog-click/
-├── public/
-├── src/
-│ ├── App.jsx # Main game logic
-│ ├── main.jsx # Entry point
-│ └── index.css # Tailwind CSS setup
-├── vite.config.js # Vite config with GitHub Pages base
-├── package.json
-└── README.md
-
 ## Local Development
 
 1. Clone the repo  
